@@ -1,0 +1,9 @@
+Topes		Tripp		1		2.83	02/09/2002	Summerview
+Saffran		Marsiella	2		2.03	10/01/2002	Jana
+Hurleston	Doy			3		2.04	03/11/2002	Mallard
+Couttes		Talbert		4		2.52	13/02/2002	Kim
+Culleton	Georgy		5		3.4		20/12/2002	Hagan
+Rawstorn	Talya		6		3.61	08/10/2002	Vahlen
+Dennison	Horace		7		2.23	22/11/2002	Atwood
+Anny		Horace		7		2.23	22/11/2002	Atwood
+Vinny		Horace		7		2.23	22/11/2002	Atwood

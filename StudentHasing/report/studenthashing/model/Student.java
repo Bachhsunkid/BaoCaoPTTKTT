@@ -6,10 +6,8 @@ import java.util.Objects;
 import report.studenthasing.library.Date;
 
 public class Student {
-	private String rollNo;
 	private String firstName;
 	private String lastName;
-	private Date DoB;
 	private Double GPA;
 	private String hometown;
 	private List<Subject> subjects;
@@ -23,8 +21,6 @@ public class Student {
 		rollNo = line[0];
 		firstName = line[1];
 		lastName = line[2];
-		DoB = new Date(line[3]);
-		hometown = line[4];
 		
 	}
 	
@@ -89,8 +85,6 @@ public class Student {
 		int hash = 1;
 		hash = 31 * hash + firstName.hashCode();
 		hash = 31 * hash + lastName.hashCode();
-		hash = 31 * hash + DoB.hashCode();
-		return hash;
 	}
 
 	@Override
@@ -99,10 +93,7 @@ public class Student {
 			return true;
 		if (obj == null)
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
 		Student other = (Student) obj;
-		return Objects.equals(DoB, other.DoB) && Objects.equals(firstName, other.firstName)
 				&& Objects.equals(lastName, other.lastName);
 	}
 
@@ -113,6 +104,6 @@ public class Student {
 //	}
 	
 	public void display() {
-		System.out.printf("\n%-5s %-20s %-20s %-15s %-10.2f %-20s ",rollNo, firstName, lastName, DoB, GPA, hometown);
+		printf("\n%-5s %-20s %-20s %-15s %-10.2f %-20s ",rollNo, firstName, lastName, DoB, GPA, hometown);
 	}
 }

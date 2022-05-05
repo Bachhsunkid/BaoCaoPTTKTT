@@ -9,16 +9,12 @@ public class Main {
 		SinhVienImpl.readData();
 		SinhVienImpl.displaySinhVien();
 
-		System.out.println("--------Sort by name--------");
 		SinhVienImpl.sortSinhVienByName();
 		SinhVienImpl.displaySinhVien();
-		System.out.println("--------Sort by age--------");
 		SinhVienImpl.sortSinhVienByAge();
 		SinhVienImpl.displaySinhVien();
-		System.out.println("--------Sort by hometown--------");
 		SinhVienImpl.sortSinhVienByHometown();
 		SinhVienImpl.displaySinhVien();
-		System.out.println("--------TopM by score--------");
 		SinhVienImpl.topMByScore();
 
 		

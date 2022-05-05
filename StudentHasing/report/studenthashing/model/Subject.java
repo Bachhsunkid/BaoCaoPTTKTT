@@ -3,7 +3,6 @@ package report.studenthashing.model;
 public class Subject {
 	private Integer credits;
 	private String subjectName;
-	private Double mark;
 	
 	
 	public Subject(){	
@@ -51,7 +50,7 @@ public class Subject {
 
 	@Override
 	public String toString() {
-		return "Subject [credits=" + credits + ", subjectName=" + subjectName + ", mark=" + mark + "]";
+		return null;
 	}
 	
 	public void display() {
